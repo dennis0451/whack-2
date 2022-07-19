@@ -34,7 +34,8 @@ function App() {
   // renders
   const denElements = dens.map((den, index) => {
     return (
-      <Mole key={`mole-${index}`} />
+      <Mole key={`mole-${index}`} 
+       den={den}/>
     )
   })
 
